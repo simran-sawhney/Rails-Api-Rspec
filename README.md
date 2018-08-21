@@ -45,7 +45,6 @@ $ ruby -v # Rails 5.2.1
 ## 3. API End Points
 | SNo.   | EndPoint                  | Functionality                 |
 | :----  | :--------                 | :------------                 |
-| ______ | _________________________ |_______________________________|
 | 1.     | GET /todos                | List of All Todos             |
 | 2.     | POST /todos               | Create new todo               | 
 | 3.     | GET /todos/:id            | Get A particular Todo         |
