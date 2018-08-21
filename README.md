@@ -12,7 +12,7 @@ API only applications are slimmed down compared to traditional Rails web applica
 
 This works to generate an API-centric framework excluding functionality that would otherwise be unused and unnecessary.
 
-##Includes
+## Includes
 
 1. Overview
 2. Pre Requisites
@@ -20,7 +20,7 @@ This works to generate an API-centric framework excluding functionality that wou
 4. Project Setup Basics
 5. References
 
-##1. OVERVIEW 
+## 1. OVERVIEW 
 
 Todo-Items Rails Api TDD Project with test cases
 
@@ -32,7 +32,7 @@ This project is aimed to learn and understand the Rails API Framework and TDD (T
 **Expected Learning Out of Project:**
 *One can understand how to implement the rails api framework, write Rspec Testing, Usage of several gems, writing of specs, request specs, handling of exceptions and global responses.*
  
-##2. PRE-REQUISITES
+## 2. PRE-REQUISITES
 Before we begin, make sure you have ruby version >= 2.2.2 and rails version >= 5
 
 ```
@@ -42,21 +42,21 @@ $ ruby -v # Rails 5.2.1
 
 > All good? Let's get started!
 
-##3. API End Points
-| SNo.  | EndPoint                  | Functionality                 |
-| :---- | :--------                 | :------------                 |
-|_______|__________________________ |_______________________________|
-|1.     | GET /todos                | List of All Todos             |
-|2.     | POST /todos               | Create new todo               | 
-|3.     | GET /todos/:id            | Get A particular Todo         |
-|4.     | PUT /todos/:id            | Update a todo                 |
-|5.     | DELETE /todos/:id         | Delete a todo and its items   |
-|6.     | GET /todos/:id/items      | Get a todo Item               |
-|7.     | PUT /todos/:id/items      | update a todo Item            |
-|8.     | DELETE /todos/:id/items   | Delete a todo Item            |
-|9.     | POST /todos/:id/items     | Create a Todo item            |
+## 3. API End Points
+| SNo.   | EndPoint                  | Functionality                 |
+| :----  | :--------                 | :------------                 |
+| ______ | _________________________ |_______________________________|
+| 1.     | GET /todos                | List of All Todos             |
+| 2.     | POST /todos               | Create new todo               | 
+| 3.     | GET /todos/:id            | Get A particular Todo         |
+| 4.     | PUT /todos/:id            | Update a todo                 |
+| 5.     | DELETE /todos/:id         | Delete a todo and its items   |
+| 6.     | GET /todos/:id/items      | Get a todo Item               |
+| 7.     | PUT /todos/:id/items      | update a todo Item            |
+| 8.     | DELETE /todos/:id/items   | Delete a todo Item            |
+| 9.     | POST /todos/:id/items     | Create a Todo item            |
         
-##4. Project Setup Basics
+## 4. Project Setup Basics
 1. Generate a new project todos-api by running ```$ rails new todos-api --api -T -d mysql ```
 
 2. **Dependencies:**
@@ -93,7 +93,7 @@ $ ruby -v # Rails 5.2.1
 8. Run ```$ rails s``` -  to start the rails server on default port :3000
 9. Run ```$ http :3000/todos``` -  to see the api response (using httpie)
 
-##5. REFERENCES
+## 5. REFERENCES
 **_Relevant Links_**   
 - [Rails API](https://github.com/rails-api/rails-api) 
 - [Testing Approach Using Rspec-Rails Testing Framework](https://guides.rubyonrails.org/v3.2.9/testing.html)
