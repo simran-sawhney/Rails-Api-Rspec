@@ -19,6 +19,8 @@ This works to generate an API-centric framework excluding functionality that wou
 3. API End Points
 4. Project Setup Basics
 5. References
+6. Additions
+7. Upcoming Features
 
 ## 1. OVERVIEW 
 
@@ -83,6 +85,8 @@ $ ruby -v # Rails 5.2.1
       gem 'faker'
       gem 'database_cleaner'
     end
+    
+    gem 'jwt
     ```  
 
 4. Run ```$ bundle install``` - to install gems dependencies   
@@ -107,7 +111,14 @@ $ ruby -v # Rails 5.2.1
 - [https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one) 
  
 
+## 6.Additions
+1. Added User Authentication and Sign Up using JWT
+2. Added User and Authentication related RSpec Tests
 
+## 7. Upcoming Features
+1. API versioning
+2. Pagination
+3. Serialisation
     
       
     
